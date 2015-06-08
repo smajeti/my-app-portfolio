@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_back_ground_color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTxtViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@color/text_view_txt_color"
+        android:text="@string/my_title" />
+
+    <Button
+        android:id="@+id/spotifyBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:layout_below="@+id/titleTxtViewId"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/media_streamer" />
+
+    <Button
+        android:id="@+id/scoresAppBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:layout_below="@+id/spotifyBtnId"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/super_duo1" />
+
+    <Button
+        android:id="@+id/libraryAppBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:layout_below="@+id/scoresAppBtnId"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/super_duo2" />
+
+    <Button
+        android:id="@+id/biggerAppBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:layout_below="@+id/libraryAppBtnId"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/ant_terminator" />
+
+    <Button
+        android:id="@+id/baconReaderAppBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:layout_below="@+id/biggerAppBtnId"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/materialize" />
+
+    <Button
+        android:id="@+id/capstoneAppBtnId"
+        style="@style/Nano.Portfolio.Button"
+        android:background="@color/capstone_btn_background_color"
+        android:layout_below="@+id/baconReaderAppBtnId"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/capstone" />
+
+</RelativeLayout>
